@@ -16,7 +16,7 @@
 html {
   font-family: 'Roboto Light', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  background: #f5e5d2;
 }
 
 h1, h2, h3 {
@@ -54,6 +54,12 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -101,13 +107,63 @@ a:hover {
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .algorithm-title {
+  padding-bottom: 20px;
+}
+
+.algorithm-desc {
+  width: 600px;
+  text-align: justify;
+}
+
+.algorithm-container {
+  margin-top: 0;
+}
+
+.algorithm-distance {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.hardware {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.hardware-title {
+  margin-bottom: 50px;
+}
+
+.hardware-block {
+  margin-bottom: 40px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.hardware-block__text {
+  margin-top: 50px;
+  width: 500px;
+  text-align: justify;
+}
+
+.hardware-block__img {
+  border: 3px solid #070707b0;
+}
+
+.li-item {
+  margin-top: 10px;
+}
+
+.algorithm {
+  margin-top: -190px;
+  background: #f5e5d2;
+  padding-top: 100px;
+}
+
+.algorithm-title {
   padding-bottom: 20px;
 }
 
@@ -128,13 +184,10 @@ a:hover {
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .algorithm-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -155,13 +208,10 @@ a:hover {
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .algorithm-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -182,13 +232,10 @@ a:hover {
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .algorithm-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 20px;
 }
 
