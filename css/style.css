@@ -111,30 +111,18 @@ a:hover {
   padding-bottom: 20px;
 }
 
-.algorithm {
-  margin-top: -190px;
-  background: #f5e5d2;
-  padding-top: 20px;
+.algorithm-desc {
+  width: 600px;
+  text-align: justify;
 }
 
-.algorithm-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 20px;
+.algorithm-container {
+  margin-top: 0;
 }
 
-.algorithm {
-  margin-top: -190px;
-  background: #f5e5d2;
-  padding-top: 20px;
-}
-
-.algorithm-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 20px;
+.algorithm-distance {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .algorithm {
@@ -148,5 +136,73 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.algorithm-desc {
+  width: 600px;
+  text-align: justify;
+}
+
+.algorithm-container {
+  margin-top: 0;
+}
+
+.algorithm-distance {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.algorithm {
+  margin-top: -190px;
+  background: #f5e5d2;
+  padding-top: 20px;
+}
+
+.algorithm-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.algorithm-desc {
+  width: 600px;
+  text-align: justify;
+}
+
+.algorithm-container {
+  margin-top: 0;
+}
+
+.algorithm-distance {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.algorithm {
+  margin-top: -190px;
+  background: #f5e5d2;
+  padding-top: 20px;
+}
+
+.algorithm-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.algorithm-desc {
+  width: 600px;
+  text-align: justify;
+}
+
+.algorithm-container {
+  margin-top: 0;
+}
+
+.algorithm-distance {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
