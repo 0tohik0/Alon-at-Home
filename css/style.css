@@ -26,6 +26,11 @@ h1, h2, h3 {
 a {
   text-decoration: none;
   color: #130e09;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #e2cebb;
 }
 
 .container {
@@ -43,7 +48,7 @@ a {
 .header {
   position: relative;
   width: 100%;
-  background: #18171780;
+  background: #18171786;
 }
 
 .header-logo {
@@ -51,17 +56,31 @@ a {
 }
 
 .header-logo__img {
-  width: 120px;
-  height: 110px;
+  width: 150px;
+  height: 100px;
 }
 
 .header-menu__item {
   margin-right: 30px;
 }
 
+.stocks-line {
+  height: 10px;
+  width: 100%;
+  background: #2f2620;
+}
+
 .promo {
   padding-top: 100px;
-  padding-bottom: 700px;
+  padding-bottom: 550px;
+  margin-top: -120px;
+  background: url("../img/promo.jpg") center/cover;
+  z-index: 999;
+}
+
+.promo {
+  padding-top: 100px;
+  padding-bottom: 550px;
   margin-top: -120px;
   background: url("../img/promo.jpg") center/cover;
   z-index: 999;
