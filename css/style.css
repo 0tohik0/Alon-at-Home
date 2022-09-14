@@ -16,6 +16,7 @@
 html {
   font-family: 'Roboto Light', sans-serif;
   font-weight: 600;
+  font-size: 16px;
   background: #f5e5d2;
 }
 
@@ -48,6 +49,7 @@ a:hover {
   margin-top: 50px;
   background: #f5e5d2;
   padding: 20px 4px 20px 4px;
+  border: 1px solid #1a1818;
 }
 
 .block {
@@ -60,6 +62,10 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.desc-item {
+  margin-bottom: 10px;
 }
 
 .header {
@@ -110,6 +116,11 @@ a:hover {
   padding-top: 100px;
 }
 
+.algorithm-container {
+  border: 2px solid #070707b0;
+  margin-top: 0;
+}
+
 .algorithm-title {
   padding-bottom: 20px;
 }
@@ -119,8 +130,8 @@ a:hover {
   text-align: justify;
 }
 
-.algorithm-container {
-  margin-top: 0;
+.algorithm-desc-item {
+  margin-bottom: 15px;
 }
 
 .algorithm-distance {
@@ -157,10 +168,47 @@ a:hover {
   margin-top: 10px;
 }
 
+.reviews {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background: #070707b0;
+}
+
+.reviews-title {
+  padding-bottom: 60px;
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+  background: #f5e5d2;
+  border-radius: 10%;
+  border: 2px solid #1a1818;
+}
+
+.card-title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1d1c1aa2;
+}
+
+.card-desc {
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
   padding-top: 100px;
+}
+
+.algorithm-container {
+  border: 2px solid #070707b0;
+  margin-top: 0;
 }
 
 .algorithm-title {
@@ -172,8 +220,8 @@ a:hover {
   text-align: justify;
 }
 
-.algorithm-container {
-  margin-top: 0;
+.algorithm-desc-item {
+  margin-bottom: 15px;
 }
 
 .algorithm-distance {
@@ -187,6 +235,11 @@ a:hover {
   padding-top: 100px;
 }
 
+.algorithm-container {
+  border: 2px solid #070707b0;
+  margin-top: 0;
+}
+
 .algorithm-title {
   padding-bottom: 20px;
 }
@@ -196,8 +249,8 @@ a:hover {
   text-align: justify;
 }
 
-.algorithm-container {
-  margin-top: 0;
+.algorithm-desc-item {
+  margin-bottom: 15px;
 }
 
 .algorithm-distance {
@@ -211,28 +264,9 @@ a:hover {
   padding-top: 100px;
 }
 
-.algorithm-title {
-  padding-bottom: 20px;
-}
-
-.algorithm-desc {
-  width: 600px;
-  text-align: justify;
-}
-
 .algorithm-container {
+  border: 2px solid #070707b0;
   margin-top: 0;
-}
-
-.algorithm-distance {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.algorithm {
-  margin-top: -190px;
-  background: #f5e5d2;
-  padding-top: 100px;
 }
 
 .algorithm-title {
@@ -244,8 +278,8 @@ a:hover {
   text-align: justify;
 }
 
-.algorithm-container {
-  margin-top: 0;
+.algorithm-desc-item {
+  margin-bottom: 15px;
 }
 
 .algorithm-distance {
