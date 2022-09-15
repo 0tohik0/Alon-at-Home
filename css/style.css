@@ -17,7 +17,6 @@ html {
   font-family: 'Roboto Light', sans-serif;
   font-weight: 600;
   font-size: 16px;
-  background: #f5e5d2;
 }
 
 h1, h2, h3 {
@@ -167,6 +166,7 @@ a:hover {
 .hardware {
   padding-top: 100px;
   padding-bottom: 40px;
+  background: #f5e5d2;
 }
 
 .hardware-title {
@@ -226,6 +226,23 @@ a:hover {
   margin-right: 10px;
 }
 
+.feedback {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../img/bc-rm.jpg) no-repeat center/cover;
+}
+
+.feedback-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.feedback-form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
 .stock {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -242,6 +259,7 @@ a:hover {
 .stock-card {
   width: 352px;
   height: 560px;
+  background: #e6d4b9;
   border: 1px solid #1a1818;
   border-radius: 5px;
 }
@@ -273,6 +291,7 @@ a:hover {
 }
 
 .subscription {
+  background: #f5e5d2;
   padding-bottom: 120px;
 }
 
@@ -317,6 +336,10 @@ a:hover {
 
 .footer-menu__item {
   margin-right: 10px;
+}
+
+.footer-text {
+  color: #ffffff;
 }
 
 .algorithm {
