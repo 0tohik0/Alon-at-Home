@@ -68,6 +68,20 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #070707b0;
+  background: #070707b0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #070707b0;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -122,7 +136,7 @@ a:hover {
 }
 
 .algorithm-title {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .algorithm-desc {
@@ -145,7 +159,7 @@ a:hover {
 }
 
 .hardware-title {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .hardware-block {
@@ -175,7 +189,8 @@ a:hover {
 }
 
 .reviews-title {
-  padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .card {
@@ -187,7 +202,7 @@ a:hover {
 }
 
 .card-title {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 20px;
   border-bottom: 2px solid #1d1c1aa2;
 }
@@ -200,6 +215,52 @@ a:hover {
   margin-right: 10px;
 }
 
+.stock {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.stock-container {
+  align-items: flex-start;
+}
+
+.stock-title {
+  padding-bottom: 70px;
+}
+
+.stock-card {
+  width: 352px;
+  height: 560px;
+  border: 1px solid #1a1818;
+  border-radius: 5px;
+}
+
+.stock-card__title {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+.stock-card__text {
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+
+.stock-card__button {
+  margin-left: 100px;
+}
+
+.text-clearing {
+  margin-bottom: 18px;
+}
+
+.text-barrel {
+  margin-bottom: 57px;
+}
+
 .algorithm {
   margin-top: -190px;
   background: #f5e5d2;
@@ -212,7 +273,7 @@ a:hover {
 }
 
 .algorithm-title {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .algorithm-desc {
@@ -241,7 +302,7 @@ a:hover {
 }
 
 .algorithm-title {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .algorithm-desc {
@@ -270,7 +331,7 @@ a:hover {
 }
 
 .algorithm-title {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .algorithm-desc {
