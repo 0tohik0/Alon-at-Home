@@ -72,12 +72,25 @@ a:hover {
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   border: 1px solid #070707b0;
-  background: #070707b0;
-  color: #ffffff;
   cursor: pointer;
 }
 
-.button:hover {
+.button--primary {
+  background: #070707b0;
+  color: #ffffff;
+}
+
+.button--primary:hover {
+  background: #ffffff;
+  color: #070707b0;
+}
+
+.button--secondary {
+  background: #070707b0;
+  color: #ffffff;
+}
+
+.button--secondary:hover {
   background: #ffffff;
   color: #070707b0;
 }
@@ -261,62 +274,43 @@ a:hover {
   margin-bottom: 57px;
 }
 
-.algorithm {
-  margin-top: -190px;
-  background: #f5e5d2;
-  padding-top: 100px;
+.subscription {
+  padding-bottom: 120px;
 }
 
-.algorithm-container {
-  border: 2px solid #070707b0;
-  margin-top: 0;
+.subscription-title {
+  padding-bottom: 50px;
 }
 
-.algorithm-title {
-  padding-bottom: 40px;
+.subscription-container {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  background: #070707b0;
+  border: 1px solid #1a1818;
 }
 
-.algorithm-desc {
-  width: 600px;
-  text-align: justify;
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.algorithm-desc-item {
-  margin-bottom: 15px;
+.subscription-form__email {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
 }
 
-.algorithm-distance {
-  margin-top: 30px;
-  margin-bottom: 10px;
+.subscription-form__button {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.algorithm {
-  margin-top: -190px;
-  background: #f5e5d2;
-  padding-top: 100px;
-}
-
-.algorithm-container {
-  border: 2px solid #070707b0;
-  margin-top: 0;
-}
-
-.algorithm-title {
-  padding-bottom: 40px;
-}
-
-.algorithm-desc {
-  width: 600px;
-  text-align: justify;
-}
-
-.algorithm-desc-item {
-  margin-bottom: 15px;
-}
-
-.algorithm-distance {
-  margin-top: 30px;
-  margin-bottom: 10px;
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #070707b0;
 }
 
 .algorithm {
