@@ -110,7 +110,6 @@ a:hover {
 .header-logo__item {
   border: 2px solid #f5e5d2;
   font-size: 24px;
-  cursor: pointer;
 }
 
 .header-logo__item:hover {
@@ -119,7 +118,6 @@ a:hover {
 }
 
 .header-menu__item {
-  font-weight: 500;
   margin-right: 30px;
 }
 
@@ -311,6 +309,14 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #070707b0;
+}
+
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu__item {
+  margin-right: 10px;
 }
 
 .algorithm {
