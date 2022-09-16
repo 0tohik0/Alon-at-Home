@@ -228,24 +228,64 @@ a:hover {
 
 .feedback {
   padding-top: 100px;
-  padding-bottom: 100px;
-  background: url(../img/bc-rm.jpg) no-repeat center/cover;
+  padding-bottom: 120px;
+  background: #f5e5d2;
+}
+
+.feedback-title {
+  margin-bottom: 40px;
+}
+
+.feedback-button {
+  width: 115px;
+  display: flex;
+  justify-content: center;
 }
 
 .feedback-container {
-  max-width: 500px;
+  max-width: 830px;
   margin: auto;
 }
 
+.feedback-content {
+  width: 400px;
+  border: 2px solid #070707b0;
+}
+
+.feedback-barell__img {
+  margin-top: 8px;
+  border: 2px solid #070707b0;
+}
+
 .feedback-form {
-  margin-top: 70px;
+  background: #fff3e9;
+  padding-top: 20px;
+  padding-right: 2px;
+  padding-left: 15px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.feedback-form__label {
+  margin-bottom: 10px;
+}
+
+.feedback-form__date {
+  margin-top: 5px;
+  height: 25px;
+}
+
+.feedback-form__text {
+  margin-top: 5px;
+  width: 250px;
+  height: 25pxx;
 }
 
 .stock {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #fff3e9;
 }
 
 .stock-container {
@@ -279,7 +319,7 @@ a:hover {
 }
 
 .stock-card__button {
-  margin-left: 100px;
+  margin-left: 112px;
 }
 
 .text-clearing {
@@ -291,8 +331,9 @@ a:hover {
 }
 
 .subscription {
-  background: #f5e5d2;
-  padding-bottom: 120px;
+  background: #fff3e9;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .subscription-title {

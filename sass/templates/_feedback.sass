@@ -1,11 +1,37 @@
 .feedback
     padding-top: 100px
-    padding-bottom: 100px
-    background: url(../img/bc-rm.jpg) no-repeat center/cover
+    padding-bottom: 120px
+    background: $beige
+    &-title
+        margin-bottom: 40px
+    &-button
+        width: 115px
+        display: flex
+        justify-content: center
     &-container
-        max-width: 500px
+        max-width: 830px
         margin: auto
+    &-content
+        width: 400px
+        border: 2px solid $dark
+    &-barell
+        &__img
+           margin-top: 8px 
+           border: 2px solid $dark
     &-form
-        margin-top: 70px
+        background: $w-bg
+        padding-top: 20px
+        padding-right: 2px
+        padding-left: 15px
         display: flex
         flex-direction: column
+        padding-bottom: 20px
+        &__label
+            margin-bottom: 10px
+        &__date
+            margin-top: 5px
+            height: 25px
+        &__text
+            margin-top: 5px
+            width: 250px
+            height: 25pxx
